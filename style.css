@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
     background: #000000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.main-logo{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+}
+
+nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
